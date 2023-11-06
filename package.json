@@ -12,9 +12,12 @@
     "test:coverage": "jest --config scripts/jest/jest.config.js --collectCoverage --runInBand"
   },
   "dependencies": {
+    "immer": "^10.0.3",
     "next": "14.0.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "use-immer": "^0.9.0",
+    "zustand": "^4.4.6"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
