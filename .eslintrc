@@ -87,7 +87,7 @@
         "groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
         "pathGroups": [
           {
-            "pattern": "{react,react-dom,react-router-dom,connected-react-router,@reduxjs/toolkit,react-redux,reselect,prop-types,@testing-library/react,@testing-library/react-hooks,@testing-library/jest-dom}",
+            "pattern": "{react,next,@testing-library/react,@testing-library/react-hooks,@testing-library/jest-dom}",
             "group": "builtin",
             "position": "before"
           },
