@@ -5,6 +5,7 @@ import { RedirectType, redirect } from 'next/navigation'
 export default function About() {
   const loginCookies = cookies().get('loginauth')
 
+  // Comment tst
   if (!loginCookies) {
     redirect('/', RedirectType.push)
   }

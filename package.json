@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint ./src",
     "format": "prettier --config .prettierrc --write ./src",
     "test": "jest --config scripts/jest/jest.config.js --runInBand",
     "test:coverage": "jest --config scripts/jest/jest.config.js --collectCoverage --runInBand"
@@ -49,7 +49,7 @@
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
       "yarn lint ./src",
-      "yarn format ./src",
+      "yarn format",
       "git add --force"
     ]
   },
