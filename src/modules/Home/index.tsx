@@ -1,10 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import tw from 'twin.macro'
 
 import { Button } from '~/components/ui/button'
-
-const Input = tw.input`border hover:border-black`
 
 export default function Home() {
   return (
@@ -50,7 +47,6 @@ export default function Home() {
       </div>
 
       <Button variant="default">Test</Button>
-      <Input />
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a

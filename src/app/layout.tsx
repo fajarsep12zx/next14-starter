@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 
-import GlobalStyle from '~/styles/GlobalStyle'
-
 import '~/styles/globals.css'
 
 export const metadata: Metadata = {
@@ -12,10 +10,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
-        <GlobalStyle />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
